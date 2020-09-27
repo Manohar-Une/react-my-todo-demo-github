@@ -1,0 +1,64 @@
+/* -------------------Main Application Container--------------- */
+
+.form_container {
+  display: flex;
+  width: 52%;
+  margin: 0 auto;
+}
+
+/* -------------------Task List Container---------------- */
+
+.task_list_container {
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  border: whitesmoke;
+  border-color: wheat;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.task_list_row {
+  border-radius: 40px;
+  background-color: white;
+  margin: 10px;
+  height: 60px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.task_text {
+  font-weight: 500;
+  padding-left: 5px;
+  font-size: 12.5pt;
+}
+
+.error_message {
+  padding-top: 10px;
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 13pt;
+  color: red;
+}
+
+/* ------------------------Footer Container------------------------ */
+
+.main_footer_container {
+  margin: 10px;
+  display: flex;
+}
+
+.total_count_container {
+  float: right;
+  width: 50px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.filter_buttons_container {
+  width: calc(100% - 50px);
+  padding-top: 11px;
+  text-align: center;
+}
